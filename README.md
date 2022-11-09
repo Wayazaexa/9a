@@ -24,7 +24,7 @@ C & C++ code is normally divided into two parts:
 
 ExampleClass.hh
 ```
-#include <iostream.h>
+#include <iostream>
 
 #ifndef EXAMPLE_CLASS_INCLUDED
 #define EXAMPLE_CLASS_INCLUDED
