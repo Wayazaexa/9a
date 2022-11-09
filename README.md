@@ -156,6 +156,7 @@ Your program should create files with a ticket for each booking.
 ticket-1001.txt ticket-1002.txt ticket-1003.txt ticket-1004.txt
 ticket-1005.txt ticket-1006.txt ticket-1007.txt ticket-1008.txt
 ....
+```
 
 ## Each row in any flights contain 7 seats. There is an aisle between seat 2 and 3, and 5 and 6.
 
