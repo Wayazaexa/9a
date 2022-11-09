@@ -168,26 +168,28 @@ Row seating is 2-3-2 the all flights.
 
 ## Flight data-file structure:
 
-### flights.csv:
+flights.csv:
 ```
 flightnumber,departure,destination,date,time,f-rows,b-rows,e-rows
 ```
 
 ## Booking data-file structure:
 
-### bookings.csv:
+bookings.csv:
 ```
 bookingnumber,date,time,departure,destination,seatclass,firstname,surname
 ```
 
 ## Output:
 
-The tickets should be written to files in the format:
+The tickets should be written to files with the following filename format:
+
 ```
 ticket-{bookingnumber}.txt
 ```
 
 Each file should contain the following information in this format: 
+
 ```
 BOOKING:{bookingnumber} 
 FLIGHT:{flight} DEPARTURE:{dep} DESTINATION: {dest} {date} {time}
